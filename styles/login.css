@@ -30,7 +30,9 @@ body {
 .login-container {
 	padding: 20px 30px;
 	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
 	width: 50%;
 	max-width: 310px;
 	background-color: white;
