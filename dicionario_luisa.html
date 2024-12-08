@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+	<script src="https://kit.fontawesome.com/c442a23036.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./styles/dicionario.css" />
+	<title>Dicionário</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__logo">
+            <a href="dashboard_luisa.html"><img src="./assets/vale__logo-small.png" alt="logo_vale" /></a>
+		</div>
+		<nav>
+			<ul class="header__links">
+				<li class="header__link">
+					<i class="header__link-icon fa-regular fa-user"></i>
+				</li>
+				<li class="header__link">
+					<i class="header__link-icon fa-solid fa-chart-simple"></i>
+				</li>
+				<li class="header__link">
+					<i class="header__link-icon fa-solid fa-rocket"></i>
+				</li>
+				<li class="header__link">
+					<i class="header__link-icon fa-regular fa-calendar"></i>
+				</li>
+                <li class="header__link">
+                    <a href="dicionario_luisa.html"><i class="header__link-icon fa-solid fa-book"></i></a>
+                </li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<h1 class="main__title">Dicionário - Segurança da Informação</h1>
+		<div class="main__dicionario">
+			<div class="main__dicionario-itens">
+				<button class="main__dicionario-item" data-modal="modal-1">Confidencialidade</button>
+				<button class="main__dicionario-item" data-modal="modal-2">Integridade</button>
+				<button class="main__dicionario-item" data-modal="modal-3">Disponibilidade</button>
+			</div>
+		</div>
+	</main>
+
+	<!-- Modais -->
+	<div class="modal" id="modal-1">
+		<div class="modal__content">
+			<span class="modal__close">&times;</span>
+			<h2 class="modal__title">Confidencialidade</h2>
+			<p class="modal__text">Garante que a informação seja acessada apenas por pessoas autorizadas, evitando vazamentos e acessos indevidos.</p>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-2">
+		<div class="modal__content">
+			<span class="modal__close">&times;</span>
+			<h2 class="modal__title">Integridade</h2>
+			<p class="modal__text">Assegura que a informação seja precisa, completa e consistente, evitando alterações não autorizadas ou perda de dados.</p>
+		</div>
+	</div>
+
+	<div class="modal" id="modal-3">
+		<div class="modal__content">
+			<span class="modal__close">&times;</span>
+			<h2 class="modal__title">Disponibilidade</h2>
+			<p class="modal__text">Garante que a informação e os sistemas estejam acessíveis quando necessários, evitando interrupções no serviço.</p>
+		</div>
+	</div>
+
+	<script src="dicionario.js"></script>
+</body>
+
+</html>
