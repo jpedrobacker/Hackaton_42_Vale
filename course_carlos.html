@@ -66,22 +66,6 @@
             conscientização dos usuários, assegurando a proteção dos dados em
             todos os momentos.
           </p>
-          <ul class="quiz">
-            <li>
-              <h3>Questão?</h3>
-              <ul class="choices">
-                <li>
-                  <label><input type="radio" name="question1" value="A" /><span>A</span></label>
-                </li>
-                <li>
-                  <label><input type="radio" name="question1" value="B" /><span>B</span></label>
-                </li>
-                <li>
-                  <label><input type="radio" name="question1" value="C" /><span>C</span></label>
-                </li>
-              </ul>
-            </li>
-          </ul>
         </div>
       </div>
       <div class="main__course-content2">
@@ -91,23 +75,54 @@
         <div class="main__course-transcription">
           <h3 class="main__course-transcription-title">Transcrição:</h3>
           <p class="main__course-transcription-text">
-            AAAAAAAAAAAAAAAAAAAAAAIIIIIIIIIIIIIIINNNNNNNNNNNN
+            Luiz, um colaborador operacional responsável pelo controle de acesso 
+            no almoxarifado de uma grande empresa, recebe uma ligação de um homem 
+            que se apresenta como gerente de logística de uma empresa parceira. 
+            O falso gerente explica que houve um problema urgente no sistema de 
+            transporte e pede que Luiz libere a carga para uma transportadora 
+            "autorizada" retirar os produtos. O invasor, que conhece detalhes 
+            sobre a empresa, como nomes de fornecedores e números de pedidos, 
+            consegue convencer Luiz de que a solicitação é legítima.
+
+            <p class="main__course-transcription-text">
+            Confiando nas informações fornecidas e sem desconfiar de nada, 
+            Luiz permite que os criminosos entrem no almoxarifado e retirem 
+            uma carga de produtos de alto valor. 
+            O ataque só é percebido mais tarde, quando a empresa descobre 
+            que a mercadoria foi furtada.
+            </p>
           </p>
           <ul class="quiz">
             <li>
               <h3>Questão?</h3>
               <ul class="choices">
                 <li>
-                  <label><input type="radio" name="question0" value="A" /><span>A</span></label>
+                  <label><input type="radio" name="questionCID" value="A" /><span>Luiz deveria ter 
+                    pedido um código de verificação ou contato direto com o gerente de 
+                    logística para confirmar a solicitação antes de liberar o acesso ao almoxarifado.</span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="question0" value="B" /><span>B</span></label>
+                  <label><input type="radio" name="questionCID" value="B" /><span>Luiz deveria ter 
+                    permitido o acesso imediato à transportadora, já que a solicitação parecia 
+                    urgente e a empresa tem uma política de rapidez no processo de 
+                    retirada de mercadorias.</span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="question0" value="C" /><span>C</span></label>
+                  <label><input type="radio" name="questionCID" value="C" /><span>Luiz deveria ter 
+                    solicitado que a transportadora retornasse no dia seguinte, acreditando 
+                    que qualquer urgência poderia ser resolvida sem problemas, sem envolver 
+                    verificações adicionais.</span></label>
                 </li>
+                <br>
+                <button type="button" id="submit-button2">Enviar</button>
               </ul>
             </li>
+            <div id="modalCID" class="modal">
+              <div class="modalCID-content">
+                <span class="closeCID-button">&times;</span>
+                <p id="modalCID-message"></p>
+              </div>
+            </div>
           </ul>
         </div>
       </div>
@@ -118,23 +133,52 @@
         <div class="main__course-transcription">
           <h3 class="main__course-transcription-title">Ataques:</h3>
           <p class="main__course-transcription-text">
-            alguém me segura papai
+            João, um colaborador de uma grande empresa, recebe um e-mail aparentemente 
+            enviado pelo setor de T.I da empresa. O e-mail contém um aviso urgente 
+            sobre uma "atualização crítica" no sistema de login da empresa e solicita 
+            que todos os funcionários redefinam suas senhas imediatamente para evitar 
+            bloqueio de conta. O link fornecido no e-mail leva a uma página de login 
+            que é uma imitação perfeita do portal oficial da empresa.
+
+            <p class="main__course-transcription-text">  
+            Preocupado com a urgência do pedido e acreditando ser uma comunicação 
+            legítima, João clica no link e insere suas credenciais. 
+            O atacante captura suas informações e agora tem acesso a dados confidenciais 
+            da empresa e aos sistemas internos.
+            </p>
           </p>
           <ul class="quiz">
             <li>
-              <h3>Questão?</h3>
+              <h3>Opções de ação:</h3>
               <ul class="choices">
                 <li>
-                  <label><input type="radio" name="question0" value="A" /><span>A</span></label>
+                  <label><input type="radio" name="question0" value="A" /><span>João deveria ter 
+                    verificado a autenticidade do e-mail ligando diretamente para o setor de 
+                    segurança ou T.I, antes de clicar no link ou fornecer suas credenciais.
+                  </span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="question0" value="B" /><span>B</span></label>
+                  <label><input type="radio" name="question0" value="B" /><span>João poderia 
+                    ter compartilhado o e-mail com todos os funcionários da empresa, para que 
+                    eles também pudessem redefinir suas senhas e "proteger" suas contas, 
+                    sem verificar sua autenticidade.</span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="question0" value="C" /><span>C</span></label>
+                  <label><input type="radio" name="question0" value="C" /><span>João deveria 
+                    ter ignorado o e-mail, acreditando que as atualizações de sistema são 
+                    feitas apenas através de comunicação interna via intranet e 
+                    não por e-mails.</span></label>
                 </li>
+                <br>
+                <button type="button" id="submit-button">Enviar</button>
               </ul>
             </li>
+            <div id="modal" class="modal">
+              <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <p id="modal-message"></p>
+              </div>
+            </div>
           </ul>
         </div>
       </div>

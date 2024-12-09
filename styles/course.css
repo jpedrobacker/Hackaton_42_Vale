@@ -103,6 +103,7 @@ body {
 
 .main__course-transcription{
 	position: absolute;
+	text-align: justify;
 	top: 60%;
 	left: 30%;
 	width: 800px;
@@ -121,5 +122,60 @@ body {
 }
 
 .quiz{
-	background-color: red;
+	background-color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	z-index: 1000;
+  }
+  
+  .modal-content {
+	text-align: center;
+  }
+  
+  .close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+
+  .closeCID-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  .modal.show {
+	display: block;
+  }
+  
+  body.modal-active {
+	overflow: hidden;
+  }
+  
