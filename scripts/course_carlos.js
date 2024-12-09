@@ -41,7 +41,7 @@ function openCoursePage3() {
 	});
 }
 
-/*Luisa*/
+/*Carlos*/
 
 document.getElementById("submit-button").addEventListener("click", function () {
 	const selectedOption = document.querySelector('input[name="question0"]:checked');
@@ -55,11 +55,10 @@ document.getElementById("submit-button").addEventListener("click", function () {
 	}
   
 	if (selectedOption.value === "A" || selectedOption.value === "B" || selectedOption.value === "C") {
-	  modalMessage.textContent = `Justificativa: A opção A é a correta, 
-	  pois sempre que houver dúvida sobre a autenticidade de um e-mail, 
-	  especialmente um que solicite ações sensíveis como redefinição de senha, 
-	  o colaborador deve validar a informação diretamente com o setor responsável. 
-	  Isso evita que credenciais sejam roubadas.`;
+	  modalMessage.textContent = `Justificativa: A opção A é a correta, pois, após o incidente, 
+      é crucial que a empresa fortaleça seus processos de segurança para evitar futuras fraudes. 
+      Implementar verificações rigorosas, como confirmações por múltiplos canais, pode impedir 
+      que ataques de engenharia social se repitam, aumentando a segurança nas retiradas de mercadorias.`;
 	  modal.classList.add("show");
 	  document.body.classList.add("modal-active");
 	}
@@ -89,11 +88,11 @@ document.getElementById("submit-button").addEventListener("click", function () {
 	}
   
 	if (selectedOption.value === "A" || selectedOption.value === "B" || selectedOption.value === "C") {
-	  modalMessage.textContent = `Justificativa: A opção A é a correta, pois ao proibir o 
-	  uso de pen drives pessoais e exigir soluções corporativas seguras para armazenar 
-	  dados sensíveis, a empresa garante maior controle e proteção sobre os dados.
-	Essas medidas reduzem o risco de vazamento de informações por dispositivos 
-	não autorizados ou inseguros.`;
+	  modalMessage.textContent = `Justificativa: A opção A é a correta, pois, sempre que houver 
+      dúvida sobre uma solicitação urgente, é essencial confirmar a autenticidade da informação 
+      com fontes confiáveis. Luiz poderia, por exemplo, ligar diretamente para o gerente de 
+      logística ou solicitar um código de verificação para garantir que a transportadora estava 
+      autorizada a retirar a carga.`;
 	  modal.classList.add("show");
 	  document.body.classList.add("modal-active");
 	}
@@ -110,38 +109,3 @@ document.getElementById("submit-button").addEventListener("click", function () {
 	  }
 	});
   });
-
-  /*Carlos*/
-
-//   document.getElementById("submit-button2").addEventListener("click", function () {
-// 	const selectedOption = document.querySelector('input[name="carlos1"]:checked');
-// 	const modal = document.getElementById("modalcarlos");
-// 	const modalMessage = document.getElementById("modalcarlos-message");
-// 	const closeButton = document.querySelector(".closeCID-button");
-  
-// 	if (!selectedOption) {
-// 	  alert("Por favor, selecione uma opção.");
-// 	  return;
-// 	}
-  
-// 	if (selectedOption.value === "A" || selectedOption.value === "B" || selectedOption.value === "C") {
-// 	  modalMessage.textContent = `Justificativa: A opção A é a correta, pois, após o incidente, 
-// 	  é crucial que a empresa fortaleça seus processos de segurança para evitar futuras fraudes. 
-// 	  Implementar verificações rigorosas, como confirmações por múltiplos canais, pode impedir 
-// 	  que ataques de engenharia social se repitam, aumentando a segurança nas retiradas de mercadorias.`;
-// 	  modal.classList.add("show");
-// 	  document.body.classList.add("modal-active");
-// 	}
-  
-// 	closeButton.addEventListener("click", function () {
-// 	  modal.classList.remove("show");
-// 	  document.body.classList.remove("modal-active");
-// 	});
-  
-// 	window.addEventListener("click", function (event) {
-// 	  if (event.target === modal) {
-// 		modal.classList.remove("show");
-// 		document.body.classList.remove("modal-active");
-// 	  }
-// 	});
-//   });

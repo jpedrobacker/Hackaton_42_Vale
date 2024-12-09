@@ -93,18 +93,18 @@
               <h3>Questão?</h3>
               <ul class="choices">
                 <li>
-                  <label><input type="radio" name="questionCID" value="A" /><span>Luiz deveria ter 
+                  <label><input type="radio" name="luisa1" value="A" /><span>Luiz deveria ter 
                     pedido um código de verificação ou contato direto com o gerente de 
                     logística para confirmar a solicitação antes de liberar o acesso ao almoxarifado.</span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="questionCID" value="B" /><span>Luiz deveria ter 
+                  <label><input type="radio" name="luisa1" value="B" /><span>Luiz deveria ter 
                     permitido o acesso imediato à transportadora, já que a solicitação parecia 
                     urgente e a empresa tem uma política de rapidez no processo de 
                     retirada de mercadorias.</span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="questionCID" value="C" /><span>Luiz deveria ter 
+                  <label><input type="radio" name="luisa1" value="C" /><span>Luiz deveria ter 
                     solicitado que a transportadora retornasse no dia seguinte, acreditando 
                     que qualquer urgência poderia ser resolvida sem problemas, sem envolver 
                     verificações adicionais.</span></label>
@@ -113,32 +113,31 @@
                 <button class="Corrigir" type="button" id="submit-button2">Corrigir</button>
               </ul>
             </li>
-            <div id="modalCID" class="modal">
+            <div id="modalluisa" class="modal">
               <div class="modalCID-content">
                 <span class="closeCID-button">&times;</span>
                 <p id="modalCID-message"></p>
-              </div>
             </div>
           </ul>
         </div>
       </div>
       <div class="main__course-content3">
-         <video class="main__course-video" controls><source src="videos/Joao.mp4" type="video/mp4"></video>
+         <!-- <video class="main__course-video" controls><source src="videos/Joao.mp4" type="video/mp4"></video> -->
         <div class="main__course-transcription">
           <h3 class="main__course-transcription-title">Ataques:</h3>
           <p class="main__course-transcription-text">
-            João, um colaborador de uma grande empresa, recebe um e-mail aparentemente 
-            enviado pelo setor de T.I da empresa. O e-mail contém um aviso urgente 
-            sobre uma "atualização crítica" no sistema de login da empresa e solicita 
-            que todos os funcionários redefinam suas senhas imediatamente para evitar 
-            bloqueio de conta. O link fornecido no e-mail leva a uma página de login 
-            que é uma imitação perfeita do portal oficial da empresa.
+            Após o incidente de engenharia social em que Luiz, colaborador do almoxarifado, 
+            permitiu o acesso a uma transportadora fraudulenta, a empresa começa a perceber 
+            a falta de uma carga valiosa de produtos. A investigação revela que, após o 
+            ataque, o sistema de controle de estoque mostrou uma discrepância nas quantidades, 
+            indicando que uma transportadora não autorizada retirou a carga sem qualquer 
+            autorização formal.
 
             <p class="main__course-transcription-text">  
-            Preocupado com a urgência do pedido e acreditando ser uma comunicação 
-            legítima, João clica no link e insere suas credenciais. 
-            O atacante captura suas informações e agora tem acesso a dados confidenciais 
-            da empresa e aos sistemas internos.
+              O invasor, que se passou por um gerente de logística, havia se aproveitado das 
+              informações obtidas de fontes externas, como redes sociais e bancos de dados públicos, 
+              para construir confiança e enganar Luiz. Agora, a empresa enfrenta uma perda 
+              significativa de produtos e uma possível violação de seus processos internos de segurança.
             </p>
           </p>
           <ul class="quiz">
@@ -146,22 +145,23 @@
               <h3>Opções de ação:</h3>
               <ul class="choices">
                 <li>
-                  <label><input type="radio" name="question0" value="A" /><span>João deveria ter 
-                    verificado a autenticidade do e-mail ligando diretamente para o setor de 
-                    segurança ou T.I, antes de clicar no link ou fornecer suas credenciais.
+                  <label><input type="radio" name="question0" value="A" /><span>A empresa deve 
+                    revisar imediatamente todos os registros de segurança e estabelecer um sistema de 
+                    verificação de identidade para todas as solicitações de retirada de mercadorias, 
+                    incluindo a exigência de confirmações por múltiplos canais, como telefone e e-mail.
                   </span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="question0" value="B" /><span>João poderia 
-                    ter compartilhado o e-mail com todos os funcionários da empresa, para que 
-                    eles também pudessem redefinir suas senhas e "proteger" suas contas, 
-                    sem verificar sua autenticidade.</span></label>
+                  <label><input type="radio" name="question0" value="B" /><span> A empresa deve 
+                    confiar no sistema de controle de estoque atual e continuar permitindo o acesso às 
+                    transportadoras sem verificações adicionais, pois a perda de produtos foi uma 
+                    exceção.</span></label>
                 </li>
                 <li>
-                  <label><input type="radio" name="question0" value="C" /><span>João deveria 
-                    ter ignorado o e-mail, acreditando que as atualizações de sistema são 
-                    feitas apenas através de comunicação interna via intranet e 
-                    não por e-mails.</span></label>
+                  <label><input type="radio" name="question0" value="C" /><span>A empresa deve 
+                    ignorar o incidente e focar em melhorar o processo de segurança no futuro, 
+                    sem necessidade de tomar medidas corretivas imediatas, já que o incidente 
+                    foi isolado.</span></label>
                 </li>
                 <br>
                 <button class="Corrigir" type="button" id="submit-button">Corrigir</button>
@@ -178,7 +178,7 @@
       </div>
     </section>
   </main>
-  <script src="scripts/course.js"></script>
+  <script src="scripts/course_carlos.js"></script>
 </body>
 
 </html>

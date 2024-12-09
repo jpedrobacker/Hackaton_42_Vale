@@ -110,38 +110,3 @@ document.getElementById("submit-button").addEventListener("click", function () {
 	  }
 	});
   });
-
-  /*Carlos*/
-
-//   document.getElementById("submit-button2").addEventListener("click", function () {
-// 	const selectedOption = document.querySelector('input[name="carlos1"]:checked');
-// 	const modal = document.getElementById("modalcarlos");
-// 	const modalMessage = document.getElementById("modalcarlos-message");
-// 	const closeButton = document.querySelector(".closeCID-button");
-  
-// 	if (!selectedOption) {
-// 	  alert("Por favor, selecione uma opção.");
-// 	  return;
-// 	}
-  
-// 	if (selectedOption.value === "A" || selectedOption.value === "B" || selectedOption.value === "C") {
-// 	  modalMessage.textContent = `Justificativa: A opção A é a correta, pois, após o incidente, 
-// 	  é crucial que a empresa fortaleça seus processos de segurança para evitar futuras fraudes. 
-// 	  Implementar verificações rigorosas, como confirmações por múltiplos canais, pode impedir 
-// 	  que ataques de engenharia social se repitam, aumentando a segurança nas retiradas de mercadorias.`;
-// 	  modal.classList.add("show");
-// 	  document.body.classList.add("modal-active");
-// 	}
-  
-// 	closeButton.addEventListener("click", function () {
-// 	  modal.classList.remove("show");
-// 	  document.body.classList.remove("modal-active");
-// 	});
-  
-// 	window.addEventListener("click", function (event) {
-// 	  if (event.target === modal) {
-// 		modal.classList.remove("show");
-// 		document.body.classList.remove("modal-active");
-// 	  }
-// 	});
-//   });
