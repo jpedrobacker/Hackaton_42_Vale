@@ -41,6 +41,25 @@ function openCoursePage3() {
 	});
 }
 
+/*botao audio*/
+
+function toggleAudio() {
+    const audio = document.getElementById('audio');
+
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+
+
+// function playAudio() {
+//     const audio = document.getElementById('audio');
+//     audio.play();
+// }
+
+
 /*Luisa*/
 
 document.getElementById("submit-button").addEventListener("click", function () {

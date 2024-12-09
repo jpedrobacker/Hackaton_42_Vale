@@ -212,3 +212,38 @@ body {
 	overflow: hidden;
   }
   
+
+/*Bottao audio*/
+
+/* Estilo do botão */
+.audio-button {
+	position: absolute;
+	top: 13px;
+	left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(0, 126, 122);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.audio-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.audio-button:active {
+    transform: scale(0.95);
+}
+
+/* Ícone do fone de ouvido */
+.audio-button i {
+    font-size: 20px;
+    color: white;
+}

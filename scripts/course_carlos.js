@@ -41,6 +41,18 @@ function openCoursePage3() {
 	});
 }
 
+/*botao audio*/
+
+function toggleAudio() {
+    const audio = document.getElementById('audio');
+
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+
 /*Carlos*/
 
 document.getElementById("submit-button").addEventListener("click", function () {
