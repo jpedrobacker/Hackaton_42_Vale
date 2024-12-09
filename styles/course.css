@@ -133,9 +133,22 @@ body {
 
 
 
+/*Modal criado pelo Chat*/
 
+.Corrigir {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007E7A;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
 
-
+.Corrigir:hover {
+	background-color: #EDB111;
+}
 
 .modal {
 	display: none;
@@ -145,30 +158,50 @@ body {
 	transform: translate(-50%, -50%);
 	width: 300px;
 	padding: 20px;
-	background-color: white;
+	background-color: rgb(1, 99, 95);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 8px;
 	z-index: 1000;
   }
   
   .modal-content {
+	/* text-align: center; */
+	background-color:  rgb(1, 99, 95);
+	padding: 20px;
+	border-radius: 10px;
 	text-align: center;
+	color: white;
+	width: 90%;
+	max-width: 500px;
+  }
+
+  .modalCID-content {
+	/* text-align: center; */
+	background-color:  rgb(1, 99, 95);
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	width: 90%;
+	max-width: 500px;
   }
   
   .close-button {
 	position: absolute;
-	top: 10px;
+	top: 5px;
 	right: 10px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 40px;
+	color: rgb(255, 0, 0);
   }
 
   .closeCID-button {
 	position: absolute;
-	top: 10px;
+	top: 5px;
 	right: 10px;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 40px;
+	color: rgb(255, 0, 0);
   }
   
   .modal.show {
